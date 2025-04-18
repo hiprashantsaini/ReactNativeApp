@@ -1,0 +1,33 @@
+// src/theme/colors.js
+export const colors = {
+    primary: '#4169e1',
+    secondary: '#ffc107',
+    success: '#4caf50',
+    info: '#2196f3',
+    warning: '#ff9800',
+    danger: '#f44336',
+    light: '#f5f5f5',
+    dark: '#212121',
+    white: '#ffffff',
+    black: '#000000',
+    grey: {
+        100: '#f9f9f9',
+        200: '#f0f0f0',
+        300: '#e0e0e0',
+        400: '#cccccc',
+        500: '#9e9e9e',
+        600: '#757575',
+        700: '#616161',
+        800: '#424242',
+        900: '#212121',
+    },
+    background: '#ffffff',
+    border: '#e0e0e0',
+    text: {
+        primary: '#212121',
+        secondary: '#757575',
+        disabled: '#9e9e9e',
+        inverse: '#ffffff',
+    },
+    transparent: 'transparent',
+};
