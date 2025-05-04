@@ -1,97 +1,95 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 📘 Educational React Native App
 
-# Getting Started
+This is a fully functional Educational Mobile App built using **React Native CLI**. The app is designed to help students access courses, watch video lectures, read notes, take tests, and stay updated via the notice board.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 🚀 Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- 🎓 Browse Courses and Details
+- 🎥 Watch Educational Videos with Custom Player
+- 📝 Read and Download Notes
+- 🧪 Attempt Tests
+- 📢 Get Important Updates from the Notice Board
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
-npm start
+## 📱 Screens Overview
 
-# OR using Yarn
-yarn start
-```
+### 🏠 1. Home Page
+The home page displays a clean and user-friendly dashboard with quick access to all learning resources.
 
-## Step 2: Build and run your app
+![Home Page](./images/img1.jpg)
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+### 📚 2. Our Courses
+Students can browse through all the available courses in a scrollable, grid-style layout.
 
-```sh
-# Using npm
-npm run android
+![Our Courses](./images/img2.jpg)
 
-# OR using Yarn
-yarn android
-```
+---
 
-### iOS
+### 📘 3. Course Detail Page
+Each course displays its description, chapters, and access to videos, notes, and tests.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+![Course Detail](./images/img3.jpg)
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+---
 
-```sh
-bundle install
-```
+### 🎬 4. Video List
+Displays a list of video lectures related to the course with titles, durations, and thumbnails.
 
-Then, and every time you update your native dependencies, run:
+![Video List](./images/img4.jpg)
 
-```sh
-bundle exec pod install
-```
+---
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+### ▶️ 5. Video Player with Details & Download
+Custom video player with play controls, course info, and a download option for offline viewing.
 
-```sh
-# Using npm
-npm run ios
+![Video Player](./images/img5.jpg)
 
-# OR using Yarn
-yarn ios
-```
+---
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+### 📄 6. Notes Section
+Shows available notes (PDFs or text files) organized by topic and subject.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+![Notes](./images/img6.jpg)
 
-## Step 3: Modify your app
+---
 
-Now that you have successfully run the app, let's make changes!
+### 📑 7. Single Note View
+Detailed view of a selected note with options to **Download**, **Save to Library**, or **Share**.
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+![Single Note](./images/img7.jpg)
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+---
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+### 🧪 8. Available Tests
+Interactive list of available quizzes and tests with attempt buttons.
 
-## Congratulations! :tada:
+![Tests](./images/img8.jpg)
 
-You've successfully run and modified your React Native App. :partying_face:
+---
 
-### Now what?
+### 📢 9. Notice Board
+Official announcements and notifications are shown here to keep students updated.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+![Notice Board](./images/img9.jpg)
 
-# Troubleshooting
+---
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+## 🛠️ Tech Stack
 
-# Learn More
+- ⚛️ React Native CLI
+- 🧠 Redux (optional for state)
+- 📦 Axios / Fetch API
+- 🎬 `react-native-video` for media playback
+- 📂 `react-native-fs` or `rn-fetch-blob` for file downloads
+- 💾 AsyncStorage for saving notes locally
+- 📤 Share API for note sharing
 
-To learn more about React Native, take a look at the following resources:
+---
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## 📂 Folder Structure
+
